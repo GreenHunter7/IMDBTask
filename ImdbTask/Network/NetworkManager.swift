@@ -46,26 +46,4 @@ class NetworkManager {
         
     }
     
-    func InvokePost(urlString: String, parameters: Parameters?, httpHeader: HTTPHeaders?, complationHandler: @escaping (Any?) -> Void ){
-        
-        if httpHeader != nil {
-            for item in httpHeader! {
-                commanHttpHeader.updateValue(item.value, forKey: item.key)
-            }
-        }
-        
-        if parameters != nil {
-            for item in parameters! {
-                commanParametres.updateValue(item.value, forKey: item.key)
-            }
-        }
-        
-        Alamofire.request(urlString, method: .post, parameters: parameters, encoding: URLEncoding.default, headers: commanHttpHeader).responseObject { (response: DataResponse<MovieResponse>) in
-            if response.error != nil{
-                
-            }else{
-                complationHandler(response.result.value)
-            }
-        }
-    }
 }

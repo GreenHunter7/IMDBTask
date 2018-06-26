@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImdbTask/Network/NetworkManager.swift"
+            timestampString = "551749320.485804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "InvokeGet(urlString:parameters:httpHeader:complationHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImdbTask.NetworkManager.InvokeGet(urlString: Swift.String, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, httpHeader: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, complationHandler: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ImdbTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedhussien/Desktop/MorniKsa/ImdbTask/ImdbTask/Network/NetworkManager.swift"
+                  timestampString = "551748841.418283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "3032">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Array&lt;ImdbTask.MovieResponse&gt;&gt;) -&gt; () in ImdbTask.NetworkManager.InvokeGet(urlString: Swift.String, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, httpHeader: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, complationHandler: (Swift.Optional&lt;Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ImdbTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedhussien/Desktop/MorniKsa/ImdbTask/ImdbTask/Network/NetworkManager.swift"
+                  timestampString = "551748841.420364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImdbTask/Network/NetworkManager.swift"
+            timestampString = "551749320.485881"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "InvokeGet(urlString:parameters:httpHeader:complationHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

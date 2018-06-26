@@ -1,0 +1,6 @@
+framework module Pods_ImdbTask {
+  umbrella header "Pods-ImdbTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
